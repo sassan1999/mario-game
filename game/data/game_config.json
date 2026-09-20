@@ -1,0 +1,56 @@
+{
+  "physics": {
+    "gravity": 2200.0,
+    "max_fall_speed": 1250.0,
+    "player_run_speed": 320.0,
+    "player_sprint_bonus": 1.0,
+    "player_accel": 1550.0,
+    "player_air_accel": 900.0,
+    "ground_friction": 1900.0,
+    "air_friction": 380.0,
+    "ice_friction": 260.0,
+    "jump_velocity": 760.0,
+    "jump_cut_multiplier": 0.42,
+    "coyote_time": 0.10,
+    "jump_buffer_time": 0.12,
+    "max_step_px": 14.0,
+    "stomp_bounce": 560.0,
+    "moving_platform_speed": 70.0
+  },
+  "player": {
+    "width": 28.0,
+    "height": 42.0,
+    "big_width": 36.0,
+    "big_height": 54.0,
+    "lives": 3,
+    "invuln_time": 1.8,
+    "attack_cooldown": 0.30,
+    "respawn_delay": 0.85
+  },
+  "projectiles": {
+    "player_speed": 700.0,
+    "player_life": 0.95,
+    "player_damage": 1,
+    "enemy_speed": 260.0,
+    "enemy_life": 2.4,
+    "enemy_gravity": 330.0
+  },
+  "scoring": {
+    "coin": 100,
+    "coin_block": 150,
+    "enemy": 200,
+    "combo_bonus": 50,
+    "level_clear": 1000,
+    "time_bonus_per_second": 10,
+    "time_bonus_cap": 3000
+  },
+  "camera": {
+    "lerp": 6.5,
+    "look_ahead": 130.0,
+    "look_ahead_lerp": 3.0,
+    "dead_zone_x": 40.0,
+    "vertical_lerp": 4.0,
+    "max_vertical_offset": 190.0,
+    "shake_decay": 5.0
+  }
+}
